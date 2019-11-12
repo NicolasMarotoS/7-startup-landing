@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>landingpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        .contenedor{
+            width: 100%;
+            background-color: deepskyblue;
+            display: flex;
+            flex-direction: row;
+            padding: 2em;
+        }
+        .cont_img img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        .tarjeta{
+            display: flex;
+            width: 60em;
+            margin: 2em 2em 2em 2em;
+            background: rgba(230,230,230,0.8);
+        }
+        cont_txt{
+            font-family: 'Roboto', sans-serif;
+            flex-direction: column;
+            font-size: 20px;
+            color: purple;
+        }
+        h1{
+            font-size: 80px;
+            color: orange;
+        }
+        h2{
+            font-size: 60px;
+            color: purple;
+            font-style: italic;
+        }
+        .learn_more{
+            border-radius: 25px;
+            background: purple;
+            color: white;
+            padding: 1em 1em 1em 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="ctext">
+                <header>
+                    <h1>START UP</h1>
+                    <h2>Busines Plan</h2>
+                </header>
+                <div class="cont_txt">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor inoididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="learn_more">
+                    <p>Learn More</p>
+                </div>
+            </div>
+            <div class="cimg">
+                <div class="cont_img">
+                    <img src= "img/foto.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
